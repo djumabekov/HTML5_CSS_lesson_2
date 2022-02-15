@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.head{
+    width: 1230px;
+    height: 150px;
+    display:inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.rect{
+    background-color: orange;
+    width: 470px;
+    height: 150px;
+    display:inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.content .rect{
+    background-color: orange;
+    width: 470px;
+    height: 150px;
+}
+
+.square{
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    display:inline-block;
+    margin-right: 5px;
+    /* vertical-align: top; */
+}
+
+.content{
+    width: 1230px;
+    height: 150px;
+    display:inline-block;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.minirect{
+    vertical-align: top;
+    background-color: orange;
+    width: 310px;
+    height: 75px;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.foot .minirect{
+    vertical-align: top;
+    background-color: orange;
+    width: 310px;
+    height: 75px;
+    position: relative;
+}
+
+.foot{
+    width: 1230px;
+    height: 150px;
+    display:inline-block;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bigtext{
+    font-size: 130px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 130px;
+    position: relative;
+}
+
+.smalltext{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 150px;
+    position: relative;
+}
+
+.middletext{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 75px;
+    position: relative;
+}
